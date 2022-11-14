@@ -1,0 +1,10 @@
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\bin\Debug\Exeptions.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\bin\Debug\Exeptions.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\bin\Debug\DataAccess.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\bin\Debug\EntitiesPOJO.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\bin\Debug\DataAccess.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\bin\Debug\EntitiesPOJO.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\obj\Debug\Exeptions.csprojAssemblyReference.cache
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\obj\Debug\Exeptions.csproj.CopyComplete
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\obj\Debug\Exeptions.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\Exeptions\obj\Debug\Exeptions.pdb

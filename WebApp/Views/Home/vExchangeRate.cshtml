@@ -1,0 +1,42 @@
+﻿@using WebApp.Models.Controls
+
+@{
+    ViewBag.Title = "vExchangeRate";
+}
+
+    <script src="~/Scripts/Views/vExchangeRate.js"></script>
+
+@Html.CtrlTable(viewName: "vExchangeRate", id: "tblExchangeRate", title: "Lista de tipos de cambio",
+    columnsTitle: "País Origen,País Destino,Valor,Fecha", ColumnsDataName: "OriginCountry.Value,DestinationCountry.Value,Value,Day",
+    onSelectFunction: "BindFields", colorHeader: "red")
+
+<div class="card border-secondary" style="margin-top: 50px;">
+    <div class="card-header">
+        <div class="row pull-right">
+            <div class="col-md-8">Customer edition</div>
+            <div class="col-md-4">
+                @Html.CtrlButton(viewName: "vExchangeRate", id: "btnCreate", label: "Save", onClickFunction: "Create", buttonType: "success")
+                @Html.CtrlButton(viewName: "vExchangeRate", id: "btnUpdate", label: "Save changes", onClickFunction: "Update", buttonType: "info")
+                @Html.CtrlButton(viewName: "vExchangeRate", id: "btnDelete", label: "Delete", onClickFunction: "Delete", buttonType: "danger")
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="bs-component">
+                    <form id="frmEdition">
+                        @Html.CtrlInput(id: "txtId", type: "text", label: "Id", columnDataName: "Id")
+                        @Html.CtrlDropDown(id: "drpOriginCountry", label: "País de origen", columnDataName: "OriginCountry.Value")
+                        @*Html.CtrlInput(id: "txtDestinationCountry", type: "text", label: "País de origen", columnDataName: "OriginCountry.Value")*@
+                        @Html.CtrlDropDown(id: "drpDestinationCountry", label: "País de destino", columnDataName: "DestinationCountry.Value")
+                        @*Html.CtrlInput(id: "txtDestinationCountry", type: "text", label: "País de destino", columnDataName: "DestinationCountry.Value")*@
+                        @Html.CtrlInput(id: "txtValue", type: "number", label: "Valor", columnDataName: "Value")
+                        @Html.CtrlInput(id: "txtDay", type: "date", label: "Día", columnDataName: "Day")
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

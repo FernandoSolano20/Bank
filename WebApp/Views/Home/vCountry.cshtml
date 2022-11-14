@@ -1,0 +1,35 @@
+﻿@using WebApp.Models.Controls
+
+@{
+    ViewBag.Title = "vCountry";
+}
+
+    <script src="~/Scripts/Views/vCountry.js"></script>
+
+@Html.CtrlTable(viewName: "vCountry", id: "tblCountry", title: "Lista de países",
+    columnsTitle: "País", ColumnsDataName: "Value",
+    onSelectFunction: "BindFields", colorHeader: "red")
+
+<div class="card border-secondary" style="margin-top: 50px;">
+    <div class="card-header">
+        <div class="row pull-right">
+            <div class="col-md-8">Customer edition</div>
+            <div class="col-md-4">
+                @Html.CtrlButton(viewName: "vCountry", id: "btnCreate", label: "Save", onClickFunction: "Create", buttonType: "success")
+                @Html.CtrlButton(viewName: "vCountry", id: "btnUpdate", label: "Save changes", onClickFunction: "Update", buttonType: "info")
+                @Html.CtrlButton(viewName: "vCountry", id: "btnDelete", label: "Delete", onClickFunction: "Delete", buttonType: "danger")
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="bs-component">
+                    <form id="frmEdition">
+                        @Html.CtrlInput(id: "txtCountry", type: "text", label: "País", columnDataName: "Value")
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

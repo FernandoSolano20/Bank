@@ -1,0 +1,23 @@
+﻿@using WebApp.Models.Controls
+
+@{
+    ViewBag.Title = "vConversion";
+}
+<script src="~/Scripts/Views/vConversion.js"></script>
+    <div class="card border-secondary" style="margin-top: 50px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="bs-component">
+                        <form id="frmEdition">
+                            @Html.CtrlDropDown(id: "drpOriginCountry", label: "País de origen")
+                            @Html.CtrlDropDown(id: "drpDestinationCountry", label: "País de destino")
+                            @Html.CtrlDropDown(id: "drpDate", label: "Fecha")
+                            @Html.CtrlInput(id: "txtMoney", type: "number", label: "Cantidad de dinero")
+                            @Html.CtrlButton(viewName: "vConversion", id: "btnConversion", label: "Convertir", onClickFunction: "Conversion", buttonType: "info")
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

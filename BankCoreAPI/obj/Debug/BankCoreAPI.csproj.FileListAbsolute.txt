@@ -1,0 +1,12 @@
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\BankCoreAPI.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\BankCoreAPI.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\DataAccess.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\EntitiesPOJO.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\Exeptions.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\DataAccess.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\EntitiesPOJO.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\bin\Debug\Exeptions.pdb
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\obj\Debug\BankCoreAPI.csprojAssemblyReference.cache
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\obj\Debug\BankCoreAPI.csproj.CopyComplete
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\obj\Debug\BankCoreAPI.dll
+C:\Users\fersolano\Desktop\Lab_0v2\Bank\BankCoreAPI\obj\Debug\BankCoreAPI.pdb
